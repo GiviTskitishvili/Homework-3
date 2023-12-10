@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 4 | Git</title>
+    <style type="text/css">
+        legend {
+            background-color: #000;
+            color: #fff;
+            padding: 3px 6px;
+          }
+        input {
+            margin: 0.4rem;
+          }
+        form {
+			border: solid 2px grey;
+		}
+        fieldset {
+            margin-bottom: 2em;
+            border: 1px solid #888;
+            border-right: 1px solid #666;
+            border-bottom: 1px solid #666;    
+      }
+    </style>
+</head>
+<body>
+    <h1>მთავარი გვერდი</h1>
+    <form action="test">
+        <input type="text" name="userName" placeholder="სახელი">
+        <input type="number" name="age" placeholder="ასაკი">
+        <input type="email" name="email" placeholder="შეიყვანეთ თქვენი @mail-ი">
+
+
+        <fieldset style="border-width: 2px;">
+            <legend>აირჩიე შენი საყვარელი ფერი</legend>
+            <input type="radio" id="მწვანე" name="ფერი" value="მ" />
+            <label for="მწვანე">მწვანე</label><br />
+            <input type="radio" id="ლურჯი" name="ფერი" value="ლ" />
+            <label for="ლურჯი">ლურჯი</label><br />
+            <input type="radio" id="წითელი" name="ფერი" value="წ" />
+            <label for="წითელი">წითელი</label><br />
+        </fieldset>
+        <button type="submit" value="Submit">Submit</button>
+        <button type="reset" value="Reset">Reset</button>
+    </form>
+    
+</body>
+</html>
